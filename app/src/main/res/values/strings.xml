@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+    <string name="next_button">next</string>
+    <string name="q_0">Canberra is the capital of Australia</string>
+    <string-array name="questions">
+        <string name="q_1">The pacific ocean is larger than the alantic</string>
+        <string name="q_2">The source of the nile river is in egypt!</string>
+        <string name="q_3">The Suez Canal connects the red sea and the ocean!</string>
+    </string-array>
+    <string-array name="answers">
+        <string name='a_1'>true</string>
+        <string name='a_2'>true</string>
+        <string name='a_3'>true</string>
+        <string name='a_4'>true</string>
+        <string name='a_5'>true</string>
+
+    </string-array>
+</resources>

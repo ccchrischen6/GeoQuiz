@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/Q-1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/q_0"
+        android:gravity="center"/>
+
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+    >
+
+    <Button
+        android:id="@+id/B-t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/true_button"
+        />
+
+    <Button
+        android:id="@+id/B-f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/false_button"
+        />
+</LinearLayout>
+    <Button
+        android:id="@+id/B-n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_button"/>
+</LinearLayout>
