@@ -1,23 +1,29 @@
 <resources>
     <string name="app_name">GeoQuiz</string>
 
-    <string name="true_button">True</string>
-    <string name="false_button">False</string>
+    <string name="B_true">True</string>
+    <string name="B_false">False</string>
     <string name="correct_toast">Correct!</string>
     <string name="incorrect_toast">Incorrect!</string>
-    <string name="next_button">next</string>
-    <string name="q_0">Canberra is the capital of Australia</string>
+    <string name="error_toast">There is no such question</string>
+    <string name="B_previous">Previous</string>
+    <string name="B_next">Next</string>
+    <string name="B_cheat">Cheat</string>
+    <string name="B_back">Back</string>
+
     <string-array name="questions">
-        <string name="q_1">The pacific ocean is larger than the alantic</string>
-        <string name="q_2">The source of the nile river is in egypt!</string>
-        <string name="q_3">The Suez Canal connects the red sea and the ocean!</string>
+        <item>Canberra is the capital of Australia</item>
+        <item>The pacific ocean is larger than the alantic</item>
+        <item>The source of the nile river is in egypt!</item>
+        <item>The Suez Canal connects the red sea and the ocean!</item>
+        <item>The Amazon rive is the longest river in the Americas</item>
     </string-array>
     <string-array name="answers">
-        <string name='a_1'>true</string>
-        <string name='a_2'>true</string>
-        <string name='a_3'>true</string>
-        <string name='a_4'>true</string>
-        <string name='a_5'>true</string>
-
+        <item>true</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>true</item>
     </string-array>
+
 </resources>

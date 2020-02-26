@@ -1,40 +1,56 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical"
     android:gravity="center"
-    >
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/Q-1"
+        android:id="@+id/Q"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="@string/q_0"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:text="" />
 
-<LinearLayout
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:orientation="horizontal"
-    >
-
-    <Button
-        android:id="@+id/B-t"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/true_button"
-        />
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/B_true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/B_true" />
+
+        <Button
+            android:id="@+id/B_false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/B_false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/B_previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/B_previous"/>
+
+        <Button
+            android:id="@+id/B_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/B_next" />
+    </LinearLayout>
 
     <Button
-        android:id="@+id/B-f"
+        android:id="@+id/B_cheat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/false_button"
-        />
-</LinearLayout>
-    <Button
-        android:id="@+id/B-n"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/next_button"/>
+        android:onClick="Cheat"
+        android:text="@string/B_cheat"/>
 </LinearLayout>
